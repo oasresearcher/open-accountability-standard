@@ -1,0 +1,36 @@
+{
+  "packet_id": "OAS-REF-000",
+  "packet_type": "ACCOUNTABILITY_EVIDENCE_PACKET",
+  "packet_status": "REFERENCE_STANDARD_V1",
+  "creation_context": {
+    "description": "Illustrative reference artifact demonstrating the minimum evidence required to document reasonable human oversight for high-risk AI-assisted decisions.",
+    "non_production_notice": true
+  },
+  "timestamp_utc": "2026-01-05T10:00:00Z",
+  "legal_intent": {
+    "purpose": "To provide verifiable evidence of reasonable human oversight and procedural care in AI-assisted decision-making.",
+    "liability_framework": "DUTY_OF_CARE_OVERSIGHT",
+    "non_disclaimer_notice": "This record documents process and intent and does not constitute a transfer or disclaimer of responsibility."
+  },
+  "integrity_and_audit": {
+    "record_mutability": "IMMUTABLE_APPEND_ONLY",
+    "tamper_evidence_mechanism": "CRYPTOGRAPHIC_HASH_CHAIN",
+    "retention_policy": "7_YEARS_MANDATORY"
+  },
+  "risk_context": {
+    "decision_domain": "FINANCIAL_SERVICES_CREDIT_UNDERWRITING",
+    "risk_category": "HIGH_IMPACT_FINANCIAL_DECISION"
+  },
+  "trigger_event": {
+    "trigger_type": "PROBABILISTIC_NOVELTY",
+    "trigger_reason_code": "INPUT_VARIANCE_OUTSIDE_DECLARED_TRAINING_DISTRIBUTION",
+    "trigger_description": "Escalation required due to statistically significant deviation from known training patterns."
+  },
+  "human_oversight_record": {
+    "oversight_mode": "ACTIVE_REVIEW_REQUIRED",
+    "reviewer_role": "AUTHORIZED_CREDIT_ANALYST",
+    "decision_authority_level": "FINAL_DECISION_AUTHORITY",
+    "information_controls": "SENSITIVE_AND_PROTECTED_ATTRIBUTES_REDACTED",
+    "affirmative_action_taken": "MANUAL_REVIEW_AND_VALIDATION_COMPLETED"
+  }
+}
